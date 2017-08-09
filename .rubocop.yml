@@ -1,0 +1,7 @@
+AllCops:
+  TargetRubyVersion: 2.1.9
+  Exclude:
+    # bundled gems
+    - vendor/**/*
+    # testing gems
+    - testing/vendor/**/*
