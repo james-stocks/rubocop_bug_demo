@@ -7,6 +7,7 @@ Using Ruby 2.3 and Rubocop 0.49.1
  * (in root directory) bundle exec rubocop -d
  
  The output indicates 3 files are scanned but the summary is "2 files inspected, no offenses detected"
+ (**NOTE:**  please ignore the obsolete configuration warnings. I believe they're aside from the issue.)
  
  ```
  [centos@test-development rubocop_test]$ bundle exec rubocop -d
